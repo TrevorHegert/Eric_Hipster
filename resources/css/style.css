@@ -1,0 +1,108 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  color: white;
+  background-color: #67564e;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  position: fixed;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+}
+
+.headwrap {
+  width:100%;
+  height: 50px;
+  display: block;
+  background-color: #67564e;
+}
+
+.content {
+  width: 100%;
+}
+
+.colorBox {
+  display: block;
+  max-width: 25%;
+  padding: 150px, auto;
+  float: left;
+}
+
+.colorBox h1 {
+  color: white;
+  font-size: 24px;
+  text-align: left;
+  display: inline;
+}
+
+.colorBox h2 {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  margin: 0 20px;
+  border-bottom: 2px solid white;
+}
+
+.colorBox p  {
+  color: white;
+  font-size: 16px;
+  text-align: left;
+  padding: 0 20px 20px 20px;
+  box-sizing: border-box;
+  height: 60px;
+}
+
+.largeIcon {
+  display: block;
+  width: 300px;
+  height: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.smallIcon {
+  border-left: 2px solid white;
+  float: right;
+  padding-left: 15px;
+}
+
+.wordIcon {
+  margin: 0 20px 0px 20px;
+  border-bottom: 2px solid white;
+  box-sizing: border-box;
+  height: 45px;
+  vertical-align: baseline;
+}
+
+#aqua {
+  background-color: aqua;
+}
+
+#gold {
+  background-color: gold;
+}
+
+#red {
+  background-color: red;
+}
+
+#khaki {
+  background-color: darkKhaki;
+}
+
+#brown {
+  background-color: #67564e;
+}
+
+#green {
+  background-color: lightGreen;
+}
